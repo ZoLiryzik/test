@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "name": "Продукт 1",
+            "description": "Описание продукта 1",
+            "price": 100,
+            "image": "https://example.com/product1.jpg"
+        },
+        {
+            "name": "Продукт 2",
+            "description": "Описание продукта 2",
+            "price": 200,
+            "image": "https://example.com/product2.jpg"
+        },
+        {
+            "name": "Продукт 3",
+            "description": "Описание продукта 3",
+            "price": 300,
+            "image": "https://example.com/product3.jpg"
+        }
+    ]
+}
