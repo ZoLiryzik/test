@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+#reviews {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    background: #eee;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.review p {
+    margin: 0 0 10px;
+}
+
+.review .rating {
+    font-weight: bold;
+    color: #4CAF50;
+}
