@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.news-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.news-item h2 {
+    margin: 0 0 5px;
+}
+
+.news-item p {
+    margin: 5px 0;
+}
