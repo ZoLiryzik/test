@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Текущий год</title>
+</head>
+<body>
+    <h1>Текущий год: <span id="current-year"></span></h1>
+
+    <script>
+        // Получаем текущий год
+        const currentYear = new Date().getFullYear();
+        // Находим элемент с id "current-year" и устанавливаем его текстом текущий год
+        document.getElementById('current-year').textContent = currentYear;
+    </script>
+</body>
+</html>
