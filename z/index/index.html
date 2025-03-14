@@ -42,10 +42,19 @@
             font-size: 30px;
             cursor: pointer;
         }
+        .close-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <div class="menu" id="menu">
+        <span class="close-button" onclick="toggleMenu()">×</span>
         <ul>
             <li><a href="index.html">Главная</a></li>
             <li><a href="about.html">О нас</a></li>
